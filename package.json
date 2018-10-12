@@ -1,0 +1,23 @@
+{
+  "name": "memory-diff",
+  "version": "0.0.0",
+  "description": "an object that records memory usage of a code block",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/js-shelf/memory-diff.git"
+  },
+  "keywords": [
+    "memory",
+    "usage"
+  ],
+  "author": "Eyas Ranjous <https://github.com/eyas-ranjous>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/js-shelf/memory-diff/issues"
+  },
+  "homepage": "https://github.com/js-shelf/memory-diff#readme"
+}
