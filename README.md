@@ -91,6 +91,16 @@ memoryDiff.clear();
 console.log(memoryDiff.megabytes()); // null
 ```
 
+### Example
+```js
+const test = () => {
+  memoryDiff.start();
+  const arr = Array(1000000).fill('test');
+  memoryDiff.stop();
+  console.log(memoryDiff.format()); // 'test: 8 MB, 115 KB, 56 bytes'
+};
+```
+
 ## Build
 ```
 grunt build
