@@ -1,6 +1,6 @@
 {
   "name": "memory-diff",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "an object that records memory usage of a code block",
   "main": "index.js",
   "scripts": {
